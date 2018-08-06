@@ -1,0 +1,60 @@
+Todos os comandos a seguir devem ser postos linha-a-linha, não copie e cole
+assim fica mais fácil entender o procedimento
+
+
+PS: fiz esta explicação supondo que voce não conheça virtualenv, pip, git
+e também crendo que ou voce esta rodando isto em uma VM ou simplesmente
+você deseja rodar o script mesmo sem conhecer pip, git, venv, etc.
+
+
+
+
+
+abra o terminal, insira os seguintes comandos...
+[------------------------------------------------------------------------
+sudo apt-get dist-upgrade
+sudo apt-get update
+sudo apt-get upgrade
+------------------------------------------------------------------------]
+isto vai atualizar o repositório de aplicações,
+isso porq como se trata de uma VM,
+é provavel q este sistema esteja recem instalado
+
+
+depois...
+[------------------------------------------------------------------------
+sudo apt-get install git
+git clone https://github.com/fr4z40/RioVagas_AutoCandt.git
+cd RioVagas_AutoCandt
+chmod +x riovagas.py
+------------------------------------------------------------------------]
+com estes comandos... vc terá instalado o GIT,
+"clonado" o projeto, nevegado para dentro da pasta,
+e dado permissão de "executável" para o arquivo riovagas.py
+
+
+
+depois...
+[------------------------------------------------------------------------
+sudo apt-get install python3-pip
+sudo apt-get install python3-setuptools
+sudo python3 -m pip install -U pip
+sudo python3 -m pip install -r requeriments.txt
+------------------------------------------------------------------------]
+com isto você terá:
+	* instalando o módulo pip do python3 ( pip3 )
+	* instalado as libs descritas no requeriments.txt
+
+
+
+em caso de erro com a Lib robobrowser
+[------------------------------------------------------------------------
+git clone https://github.com/jmcarp/robobrowser
+cd robobrowser
+sudo python3 setup.py install
+sudo python3 -m pip install -U robobrowser
+------------------------------------------------------------------------]
+
+
+a partir daí, basta seguir o que foi explicado no README.md
+

@@ -1,0 +1,107 @@
+# -*- coding: utf-8 -*-
+
+candidato_info = {}
+
+
+
+#          Informações Básicas
+#
+#######################################################################################
+#
+# Não altere os formatos, edite apenas o conteúdo
+#
+candidato_info["nome_candidato"] = "Vinicius Aragao de Moraes"
+candidato_info["email_candidato"] = "viniciusaragaodemoraes@gmail.com"
+candidato_info["celular_candidato"] = "(21) 97973-6258"
+candidato_info["telefone_candidato"] = "(21) 7973-6258"
+candidato_info["pretensao_salarial"] = "R$ 1.400,00"
+#
+#######################################################################################
+
+
+
+
+
+
+
+#           Informação adcional ( opcional )
+#
+#######################################################################################
+#
+#    basta apagar o texto entre aspas
+#    OBS: nem toda vaga tem esta opção.
+#
+# Utilize este espaço para enviar informações adicionais como,
+# por exemplo, escrever uma carta de apresentação para o recrutador.
+#
+candidato_info["apresentacao_candidato"] = ('''
+
+Sempre trabalhei na área de Tecnologia da Informação voltado a Infraestrutura/Suporte residencial ou empresarial, apos ingressas na faculdade comecei alguns estágios para poder aperfeiçoar meus conhecimentos inicialmente em uma empresa de software onde realizava o desenvolvimento de aplicações WEB de acordo com a necessidade do cliente, apos isto ingressei em uma empresa onde dava suporte aos usuários e realizava todas necessidades para o funcionamento dos equipamentos de informatica, e por ultimo ingressei em infraestrutura onde realizava operações mais avançadas como manutenção do AD, servidor de impressão, acesso TS, e também realizando o reparo de notebooks e computadores, e também quando necessário dando suporte ao usuário. Caso queira mais informações segue meu linkedin https://www.linkedin.com/in/v1nnybr/.
+
+''').strip()
+#
+#######################################################################################
+
+
+
+
+
+
+
+#           Currículo
+#
+#######################################################################################
+#
+# Caso não seja possível enviar o CV em pdf, por exemplo,
+# caso a vaga aceite apenas CV em txt, este será ignorado,
+# caso contrário, a versão em PDF será priorizada.
+#
+#
+cv_pdf = '/caminho/completo/currículo.pdf'
+#
+#
+#
+#
+#
+# CV - Versão em Texto
+#
+cv_txt = ('''
+
+Vinicius Aragão de Moraes
+
+Dados pessoais:
+Data de nascimento: 19/07/1997                                
+Sexo: Masculino
+Local: Nova Iguaçu /Rio de Janeiro                           
+Estado Civil: Solteiro  
+Endereço: Rua Quermesse, n° 435 – Posse – Nova Iguaçu/RJ 
+CEP: 26022-690
+Celular: (21) 97973-6258
+E-mail: viniciusaragaodemoraes@gmail.com
+
+Formação: 
+Superior Cursando - Bacharel em Sistema de Informação pela UNESA – Formação em 2018.2 – 6º Período – CAMPUS NOVA IGUAÇU.
+Técnico Concluído – Técnico Montagem e Manutenção de Micros e Redes pela Microlins – Turma de 2014 – CAMPUS NOVA IGUAÇU.
+
+Experiência Profissional:
+GrupoAB Concessionaria (Volkswagen, Honda, Nissan, Harley Davidson, Mercedes Bens, Volvo, MAN, Chevrolet) – 09/2017 – 03/2018 – Cargo: Infraestrutura – Nível Hierárquico: Estagiário – Responsabilidades: Atendimento de chamado por telefone ou e-mail, tendo de acessar remotamente ou ir ate o usuário, realizar todos tipos de troca de periféricos e equipamentos de informatica, realizar reparo em computadores, notebooks, thin clients e celulares, realizar operações de manutenção no AD, realizar a gestão de proxy e firewall, realizar reparo nos equipamentos de rede, cabeamento estruturado, configuração de wi-fi, realizar manutenções preventivas em impressoras, trocas de cartuchos e limpezas, auxilar o usuário a utilização dos sistemas internos, acesso TS, operações no servidor de impressão, alterações na central telefônica PABXIP/VOIP.
+
+ALERJ – 03/2017 – 09/2017 – Cargo: Suporte/Help Desk/Infraestrutura – Nível Hierárquico: Estagiário – Responsabilidades: Atendimento de chamado por telefone ou e-mail, tendo de acessar remotamente ou ir ate o usuário, realizar todos tipos de troca de periféricos e equipamentos de informatica, realizar reparo em computadores e notebooks, realizar reparo nos equipamentos de rede e VOIP, realizar manutenções preventivas em impressoras, trocas de cartuchos e limpezas, auxilar o usuário a utilização dos sistemas internos.
+
+Crosssystem Tecnologia da Informação LTDA – 04/2016 – 10/2016 – Cargo: Desenvolvedor JAVA EE – Nível Hierárquico: Estagiário – Responsabilidades: Realizar o desenvolvimento de aplicações WEB para determinados clientes em qualquer seguimento, desenvolvimento de banco de dados (ex.: tabelas, views, etc), desenvolvimento do Back-End em JAVA com JDBC e o Front-End normalmente utilizando um template pronto utilizando JSF/PrimeFaces, também realizando testes, suporte, correção de bugs, implementação e levantamento de requisitos junto ao cliente final.
+
+02/2015 – 01/2016 – Cargo: Suporte/Help Desk/Infraestrutura – Nível Hierárquico: Freelancer – Responsabilidades: Atendimento residencial e empresarial, buscando sanar qualquer problema na área de TI, de acordo com a necessidade do cliente.
+
+Conhecimentos e Habilidades: 
+Windows VISTA/XP/7/8/10, Linux, Windows Server 2008, Pacote Office, Montagem e Manutenção de Computadores, Notebooks, Thin Client, Configuração de Redes LAN e WAN, Configuração de central telefônica PABXIP.
+Banco de Dados: SQL Management Studio, Oracle, Linguagem SQL – Básico.
+Desenvolvimento JAVA EE/J2EE (Intermediario: PrimeFaces, JSF, JDBC / Básico: Ajax, JavaScript, JSP), Python – Básico.
+HTML, CSS – Básico.
+
+Idiomas:
+Inglês – Leitura e Escrita intermediário.
+Espanhol – Leitura e Escrita básica.
+
+''').strip()
+#
+#######################################################################################
